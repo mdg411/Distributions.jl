@@ -118,6 +118,7 @@ KSOneSided
 Laplace
 Levy
 LocationScale
+LogGamma
 Logistic
 LogitNormal
 LogNormal

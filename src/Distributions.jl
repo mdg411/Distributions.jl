@@ -109,6 +109,7 @@ export
     LKJ,
     LocationScale,
     Logistic,
+    LogGamma,
     LogNormal,
     LogitNormal,
     MatrixBeta,
@@ -233,10 +234,13 @@ export
     quantile,           # inverse of cdf (defined for p in (0,1))
     qqbuild,            # build a paired quantiles data structure for qqplots
     rate,               # get the rate parameter
+    ratelogx,           # get the rate parameter of log(x) (for LogGamma)
     sampler,            # create a Sampler object for efficient samples
     scale,              # get the scale parameter
     scale!,             # provide storage for the scale parameter (used in multivariate distribution mvlognormal)
+    scalelogx,          # get the scale parameter of log(x) (for LogGamma)
     shape,              # get the shape parameter
+    shapelogx,          # get the shape parameter of log(x) (for LogGamma)
     skewness,           # skewness of the distribution
     span,               # the span of the support, e.g. maximum(d) - minimum(d)
     std,                # standard deviation of distribution
